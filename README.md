@@ -25,7 +25,7 @@ ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der b
 
 **Transaktionshåndtering:** Automatisering og forenkling af databasetransaktioner, hvilket sikrer dataintegritet og konsistens.
 
-**Forespørgselsbygning: ** Letbyggede forespørgsler ved hjælp af objektmetoder i stedet for kompleks SQL-kode, hvilket forbedrer læsbarheden og vedligeholdelsen af kode.
+**Forespørgselsbygning:** Letbyggede forespørgsler ved hjælp af objektmetoder i stedet for kompleks SQL-kode, hvilket forbedrer læsbarheden og vedligeholdelsen af kode.
 
 ### Hvordan håndterer dette ORM-framework relationer mellem forskellige tabeller (one-to-one, one-to-many, og many-to-many)?
 
