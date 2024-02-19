@@ -27,6 +27,8 @@ ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der b
 
 **Forespørgselsbygning:** Letbyggede forespørgsler ved hjælp af objektmetoder i stedet for kompleks SQL-kode, hvilket forbedrer læsbarheden og vedligeholdelsen af kode.
 
+**Caching:** Forbedring af applikationens ydeevne ved at cache ofte brugte data, så databasen ikke overbelastes med gentagne forespørgsler.
+
 ### Hvordan håndterer dette ORM-framework relationer mellem forskellige tabeller (one-to-one, one-to-many, og many-to-many)?
 
 ### Hvordan bruger dette ORM-framework migrations til at styre ændringer i databasens skema?
