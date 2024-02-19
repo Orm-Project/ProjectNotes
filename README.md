@@ -12,17 +12,20 @@
 
 ## Research
 
-### What is ORM?
+### Hvad er ORM?
 
-### What are the key features of this ORM-framework?
+ORM som står for "Object-Relational Mapping er en programmeringsteknik der bruges til at konverterer data mellem systemer der normalt ikke arbejder direkte sammen, ved hjælp af objektorienterede programmeringssprog.
 
-### How does this ORM framework handle relationships between different tables (one-to-one, one-to-many, and many-to-many)?
 
-### How does this ORM-framework use migrations to hande changes in the databases schema?
+### Hvad er de vigtigeste funktioner i dette ORM-framework?
 
-### How can you optimize performance with this ORM-framework?
+### Hvordan håndterer dette ORM-framework relationer mellem forskellige tabeller (one-to-one, one-to-many, og many-to-many)?
 
-### How does this ORM framework handle inheritance in both Code-First and Database-First approaches?
+### Hvordan bruger dette ORM-framework migrations til at styre ændringer i databasens skema?
+
+### Hvordan kan man optimere ydeevnen med dette ORM-framework?
+
+### Hvordan håndterer dette ORM-framework arv i både Code-First og Database-First tilgange?
 
 
 ## Code-First
