@@ -10,6 +10,11 @@
 
 # The project plan:
 
+## Research
+
+### What is ORM?
+
+### What are the key features of this ORM-framework?
 
 ## Code-First
 
