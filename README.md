@@ -19,7 +19,7 @@ ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der b
 
 ### Hvad er de vigtigeste funktioner i dette ORM-framework?
 
-** KJAOSwdsawdsa: Dwdkisa
+#### WUdsawjdksajwd: wdjhiewjd
 
 ### Hvordan håndterer dette ORM-framework relationer mellem forskellige tabeller (one-to-one, one-to-many, og many-to-many)?
 
