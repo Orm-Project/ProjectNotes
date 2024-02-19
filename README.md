@@ -14,7 +14,7 @@
 
 ### Hvad er ORM?
 
-ORM som står for "Object-Relational Mapping er en programmeringsteknik der bruges til at konverterer data mellem systemer der normalt ikke arbejder direkte sammen, ved hjælp af objektorienterede programmeringssprog.
+ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der bruges til at konvertere data mellem systemer, der normalt ikke arbejder direkte sammen, ved hjælp af objektorienterede programmeringssprog. ORM gør det muligt for udviklere at arbejde med databaser ved hjælp af de avancerede og brugervenlige kodestrukturer de er vant til, i stedet for at skrive kompleks SQL-kode. Ved at mape database tabeller til programmeringssprogets klasser, kan udviklere manipulere data i databasen gennem objektinstanser, hvilket gør kode mere intuitiv og lettere at vedligeholde.
 
 
 ### Hvad er de vigtigeste funktioner i dette ORM-framework?
