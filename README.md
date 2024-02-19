@@ -21,6 +21,12 @@ ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der b
 
 **Data Mapping:** Automatisk mapping af objekter i programmeringssproget til databasetabeller og omvendt hvilket gør det nemmere at arbejde med data.
 
+**CRUD-operations:** Forenklet udførelse af Create, Read, Update og Delete operations på databasen gennem objektmetoder uden direkte SQL.
+
+**Transaktionshåndtering:** Automatisering og forenkling af databasetransaktioner, hvilket sikrer dataintegritet og konsistens.
+
+**Forespørgselsbygning: ** Letbyggede forespørgsler ved hjælp af objektmetoder i stedet for kompleks SQL-kode, hvilket forbedrer læsbarheden og vedligeholdelsen af kode.
+
 ### Hvordan håndterer dette ORM-framework relationer mellem forskellige tabeller (one-to-one, one-to-many, og many-to-many)?
 
 ### Hvordan bruger dette ORM-framework migrations til at styre ændringer i databasens skema?
