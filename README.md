@@ -14,7 +14,7 @@
 
 ### Hvad er ORM?
 
-ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der bruges til at konvertere data mellem systemer, der normalt ikke arbejder direkte sammen, ved hjælp af objektorienterede programmeringssprog. ORM gør det muligt for udviklere at arbejde med databaser ved hjælp af de avancerede og brugervenlige kodestrukturer de er vant til, i stedet for at skrive kompleks SQL-kode. Ved at mape database tabeller til programmeringssprogets klasser, kan udviklere manipulere data i databasen gennem objektinstanser, hvilket gør kode mere intuitiv og lettere at vedligeholde.
+* ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der bruges til at konvertere data mellem systemer, der normalt ikke arbejder direkte sammen, ved hjælp af objektorienterede programmeringssprog. ORM gør det muligt for udviklere at arbejde med databaser ved hjælp af de avancerede og brugervenlige kodestrukturer de er vant til, i stedet for at skrive kompleks SQL-kode. Ved at mape database tabeller til programmeringssprogets klasser, kan udviklere manipulere data i databasen gennem objektinstanser, hvilket gør kode mere intuitiv og lettere at vedligeholde.
 
 
 ### Hvad er de vigtigeste funktioner i dette ORM-framework?
@@ -41,7 +41,7 @@ ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der b
 
 ### Hvordan bruger dette ORM-framework migrations til at styre ændringer i databasens skema?
 
-ORM bruger migrations til at styre og anvende ændringer i databasens skema på en kontrolleret og versioneret måde. Migrations er scripts eller filer, der definerer, hvordan databasens skema skal ændres, f.eks. ved at tilføje, ændre eller fjerne tabeller og kolonner. Når en udvikler foretager ændringer i applikationens datamodel, genererer ORM-frameworket en migration, der afspejler disse ændringer. Dette giver mulighed for at opdatere databasen til den nyeste skema-version uden at miste data. Migrations sikrer konsistens og sporbarhed af skemaændringer over tid, hvilket gør det lettere at udrulle og tilbagerulle ændringer i både udviklings- og produktionsmiljøer.
+* ORM bruger migrations til at styre og anvende ændringer i databasens skema på en kontrolleret og versioneret måde. Migrations er scripts eller filer, der definerer, hvordan databasens skema skal ændres, f.eks. ved at tilføje, ændre eller fjerne tabeller og kolonner. Når en udvikler foretager ændringer i applikationens datamodel, genererer ORM-frameworket en migration, der afspejler disse ændringer. Dette giver mulighed for at opdatere databasen til den nyeste skema-version uden at miste data. Migrations sikrer konsistens og sporbarhed af skemaændringer over tid, hvilket gør det lettere at udrulle og tilbagerulle ændringer i både udviklings- og produktionsmiljøer.
 
 
 ### Hvordan kan man optimere ydeevnen med dette ORM-framework?
