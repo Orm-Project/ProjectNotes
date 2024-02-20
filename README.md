@@ -21,22 +21,22 @@ ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der b
 
 * **Data Mapping:** Automatisk mapping af objekter i programmeringssproget til databasetabeller og omvendt hvilket gør det nemmere at arbejde med data.
 
-**CRUD-operations:** Forenklet udførelse af Create, Read, Update og Delete operations på databasen gennem objektmetoder uden direkte SQL.
+* **CRUD-operations:** Forenklet udførelse af Create, Read, Update og Delete operations på databasen gennem objektmetoder uden direkte SQL.
 
-**Transaktionshåndtering:** Automatisering og forenkling af databasetransaktioner, hvilket sikrer dataintegritet og konsistens.
+* **Transaktionshåndtering:** Automatisering og forenkling af databasetransaktioner, hvilket sikrer dataintegritet og konsistens.
 
-**Forespørgselsbygning:** Letbyggede forespørgsler ved hjælp af objektmetoder i stedet for kompleks SQL-kode, hvilket forbedrer læsbarheden og vedligeholdelsen af kode.
+* **Forespørgselsbygning:** Letbyggede forespørgsler ved hjælp af objektmetoder i stedet for kompleks SQL-kode, hvilket forbedrer læsbarheden og vedligeholdelsen af kode.
 
-**Caching:** Forbedring af applikationens ydeevne ved at cache ofte brugte data, så databasen ikke overbelastes med gentagne forespørgsler.
+* **Caching:** Forbedring af applikationens ydeevne ved at cache ofte brugte data, så databasen ikke overbelastes med gentagne forespørgsler.
 
 
 ### Hvordan håndterer dette ORM-framework relationer mellem forskellige tabeller (one-to-one, one-to-many, og many-to-many)?
 
-**One-to-One:** Et element i en tabel er direkte knyttet til et element fra en anden tabel, dette tillader objekter at referere til hinanden som om de var en del af samme enhed
+* **One-to-One:** Et element i en tabel er direkte knyttet til et element fra en anden tabel, dette tillader objekter at referere til hinanden som om de var en del af samme enhed
 
-**One-to-Many:** Et element i en tabel kan have forbindelse til flere elementer i en anden tabel. ORM muliggør at et objekt kan indeholde en liste over disse relationer hvilket afspejler situationer fra den virkelige verden, som f.eks. en kunde med flere bestillinger
+* **One-to-Many:** Et element i en tabel kan have forbindelse til flere elementer i en anden tabel. ORM muliggør at et objekt kan indeholde en liste over disse relationer hvilket afspejler situationer fra den virkelige verden, som f.eks. en kunde med flere bestillinger
 
-**many-to-Many:** Flere elementer i en tabel kan have relationer til flere elementer i en anden tabel. ORM håndterer dette gennem en mellemstående tabel, der registrerer alle de krydsende forbindelser, typisk for relationer som studerende og kurser, hvor mange studerende kan tilmelde sig mange kurser.
+* **many-to-Many:** Flere elementer i en tabel kan have relationer til flere elementer i en anden tabel. ORM håndterer dette gennem en mellemstående tabel, der registrerer alle de krydsende forbindelser, typisk for relationer som studerende og kurser, hvor mange studerende kan tilmelde sig mange kurser.
 
 
 ### Hvordan bruger dette ORM-framework migrations til at styre ændringer i databasens skema?
@@ -46,13 +46,13 @@ ORM bruger migrations til at styre og anvende ændringer i databasens skema på 
 
 ### Hvordan kan man optimere ydeevnen med dette ORM-framework?
 
-**Effektiv Forespørgselsbygning:** Skriv effektive forespørgsler ved kun at hente de data, der er nødvendige. Undgå at hente hele objekter, når du kun har brug for enkelte felter fra dem.
+* **Effektiv Forespørgselsbygning:** Skriv effektive forespørgsler ved kun at hente de data, der er nødvendige. Undgå at hente hele objekter, når du kun har brug for enkelte felter fra dem.
 
-**Lazy Loading:** Anvend lazy loading til at forsinke indlæsningen af relaterede data, indtil det er nødvendigt. Dette kan reducere den indledende belastning ved at hente data.
+* **Lazy Loading:** Anvend lazy loading til at forsinke indlæsningen af relaterede data, indtil det er nødvendigt. Dette kan reducere den indledende belastning ved at hente data.
 
-**Caching:** Benyt caching til at gemme ofte anvendte data i hukommelsen, så databasen ikke behøver at blive forespurgt hver gang dataene er nødvendige.
+* **Caching:** Benyt caching til at gemme ofte anvendte data i hukommelsen, så databasen ikke behøver at blive forespurgt hver gang dataene er nødvendige.
 
-**Indeks:** Sørg for, at databasetabeller er korrekt indekseret baseret på dine forespørgselsmønstre for at fremskynde dataopslag.
+* **Indeks:** Sørg for, at databasetabeller er korrekt indekseret baseret på dine forespørgselsmønstre for at fremskynde dataopslag.
 
 
 ### Hvordan håndterer dette ORM-framework arv i både Code-First og Database-First tilgange?
