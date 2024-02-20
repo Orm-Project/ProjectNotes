@@ -19,7 +19,7 @@ ORM, som står for "Object-Relational Mapping", er en programmeringsteknik der b
 
 ### Hvad er de vigtigeste funktioner i dette ORM-framework?
 
-**Data Mapping:** Automatisk mapping af objekter i programmeringssproget til databasetabeller og omvendt hvilket gør det nemmere at arbejde med data.
+* **Data Mapping:** Automatisk mapping af objekter i programmeringssproget til databasetabeller og omvendt hvilket gør det nemmere at arbejde med data.
 
 **CRUD-operations:** Forenklet udførelse af Create, Read, Update og Delete operations på databasen gennem objektmetoder uden direkte SQL.
 
